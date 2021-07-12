@@ -52,3 +52,9 @@
     grid-gap: 32px 0;
   }
 }
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .place {
+    grid-template-columns: 1fr 352px;
+  }
+}

@@ -7,21 +7,19 @@
   flex-direction: column;
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width:) {
   .lead {
-    margin-top: 48px;
     max-width: calc(100% - 96px);
   }
 }
 
 @media (min-width: 1280px) {
   .lead {
-    margin-top: 56px;
     max-width: calc(100% - 296px);
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1280px) {
   .lead {
     margin-top: 48px;
   }
