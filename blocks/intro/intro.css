@@ -3,7 +3,13 @@
   max-width: calc(100% - 296px)
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .intro {
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
   .intro {
     margin: 88px auto;
   }
